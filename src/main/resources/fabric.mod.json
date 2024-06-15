@@ -14,7 +14,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.pygmales.apothecary.ApothecaryModInit"
+      "net.pygmales.apothecary.ApothecaryMod"
     ],
     "client": [
       "net.pygmales.apothecary.ApothecaryModClient"

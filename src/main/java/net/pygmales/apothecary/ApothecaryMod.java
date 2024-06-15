@@ -1,10 +1,12 @@
 package net.pygmales.apothecary;
 
 import net.fabricmc.api.ModInitializer;
+import net.pygmales.apothecary.item.ApothecaryItemGroup;
+import net.pygmales.apothecary.item.ApothecaryItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ApothecaryModInit implements ModInitializer {
+public class ApothecaryMod implements ModInitializer {
     public static final String ID = "apothecary";
     public static final Logger LOGGER = LoggerFactory.getLogger(ID);
 
@@ -12,5 +14,7 @@ public class ApothecaryModInit implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Initializing Apothecary Mod...");
+        ApothecaryItems.regsterItems();
+        ApothecaryItemGroup.registerItemGroup();
     }
 }
