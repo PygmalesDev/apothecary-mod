@@ -5,22 +5,32 @@
 
   "name": "Apothecary Mod",
   "description": "",
-  "authors": [],
+  "authors": ["Pygmales"],
   "contact": {},
 
   "license": "MIT",
-  "icon": "assets/apothecary/icon.png",
+  "icon": "assets/apothecary/placeholder.png",
 
   "environment": "*",
-  "entrypoints": {},
+  "entrypoints": {
+    "main": [
+      "net.pygmales.apothecary.ApothecaryModInit"
+    ],
+    "client": [
+      "net.pygmales.apothecary.ApothecaryModClient"
+    ],
+    "fabric-datagen": [
+      "net.pygmales.apothecary.ApothecaryModDataGen"
+    ]
+  },
 
-          "mixins": [
+  "mixins": [
         "apothecary.mixins.json"
       ],
     
   "depends": {
     "fabricloader": ">=${loader_version}",
-              "fabric": "*",
-          "minecraft": "${minecraft_version}"
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
   }
 }
