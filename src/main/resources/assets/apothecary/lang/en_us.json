@@ -1,8 +1,11 @@
 {
-  "item.apothecary.ruby": "Ruby",
+  "item.apothecary.example_petals": "Example Petals",
   "item.apothecary.empty_phial": "Empty Phial",
   "item.apothecary.empty_vial": "Empty Vial",
   "item.apothecary.empty_flacon": "Empty Flacon",
+  "item.apothecary.bamboo_cork": "Bamboo Cork",
+
+  "block.apothecary.example_plant": "Example Plant",
 
   "itemGroup.apothecary": "Apothecary Mod"
 }

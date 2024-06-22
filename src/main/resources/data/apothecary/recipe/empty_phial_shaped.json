@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#X#",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "apothecary:bamboo_cork"
+    }
+  },
+  "result": {
+    "id": "apothecary:empty_phial",
+    "count": 8
+  }
+}

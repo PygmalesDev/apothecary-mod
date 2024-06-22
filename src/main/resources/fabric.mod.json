@@ -17,7 +17,7 @@
       "net.pygmales.apothecary.ApothecaryMod"
     ],
     "client": [
-      "net.pygmales.apothecary.ApothecaryModClient"
+      "net.pygmales.apothecary.ClientInitializer"
     ],
     "fabric-datagen": [
       "net.pygmales.apothecary.ApothecaryModDataGen"

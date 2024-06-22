@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "apothecary:block/example_plant"
+    }
+  }
+}

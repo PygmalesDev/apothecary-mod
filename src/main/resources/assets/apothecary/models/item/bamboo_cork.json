@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "apothecary:item/ruby"
+    "layer0": "apothecary:item/bamboo_cork"
   }
 }
